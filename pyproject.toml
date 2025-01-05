@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "unstructured-test"
+version = "0.1.0"
+description = ""
+authors = ["mizunomidori <mizunomibird@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+unstructured = {extras = ["pdf"], version = "^0.16.11"}
+openai = "^1.59.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
